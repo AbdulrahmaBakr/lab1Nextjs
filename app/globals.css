@@ -18,12 +18,24 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  padding: 3rem;
-  text-align: center;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+    
+   
+    
 }
-.nav{
-  background: rgb(173, 173, 177);
-  text-align: center;
-  margin-bottom: 30px;
 
+.Navbar{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+li{
+  margin: 10px;
 }
